@@ -1,18 +1,9 @@
-const founding = document.getElementById("gruendung");
-const foundingSection = document.querySelector(".gruendung-section");
-
-founding.addEventListener("click", () => {
-  foundingSection.style.display = "grid";
-  foundingSection.scrollIntoView({ behavior: "smooth" });
-  document.getElementById("main").style.display = "none";
+const cardOne = document.querySelector("._founding-card1");
+cardOne.addEventListener("click", () => {
+  cardOne.classList.add("active");
 });
 
-const closeButton = document
-  .querySelector(".close")
-  .addEventListener("click", () => {
-    console.log("clicked");
-    document.getElementById("main").style.display = "grid";
-    await(2);
-    document.getElementById("main").scrollIntoView({ behavior: "smooth" });
-    document.querySelector(".gruendung-section").style.display = "none";
-  });
+const cardTwo = document.querySelector("._founding-card2");
+cardTwo.addEventListener("click", () => {
+  cardTwo.classList.add("active");
+});
