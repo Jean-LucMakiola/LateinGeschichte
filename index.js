@@ -40,6 +40,8 @@ document
     expansionTextParagraph.textContent =
       "Im Jahr 500 v. Chr. markierte die Vertreibung der etruskischen Könige den Beginn eines neuen Kapitels in der Geschichte Roms. Die Gründung des Stadtstaates Rom auf der italischen Halbinsel ebnete den Weg für einen bemerkenswerten Aufstieg. Mit der Etablierung einer eigenen Regierung und eines eigenen politischen Systems begann Rom seinen unaufhaltsamen Aufstieg zu einer bedeutenden Macht in der Region. Dieses Ereignis legte den Grundstein für eine bemerkenswerte Zivilisation, die in den kommenden Jahrhunderten eine führende Rolle spielen sollte.";
   });
+
+//ab hier kopieren
 document
   .getElementById("timeline-event-stemp2")
   .addEventListener("click", () => {
@@ -48,6 +50,8 @@ document
     expansionTextParagraph.textContent =
       "Rom erobert im Bündnis mit den Latinern die etruskische Stadt Veji und verdoppelt sein Herrschaftsgebiet. Furcht der Latinern vor Roms wachsender Macht; Rom unterwirft die Latinern und ihre Städte werden Teil des römischen Herrschaftsgebiets. Bündnisse mit besiegten Städten tragen zum Aufstieg Roms zur Weltmacht bei. Rom gründet Kolonien als Stützpunkte an wichtigen geografischen Stellen und setzt römische Bürger ein, um die ehemaligen Gegner zu kontrollieren. Langwierige Kämpfe gegen die Samniten; sie werden schließlich zu Bundesgenossen Roms. ";
   });
+//bis hier kopieren,
+
 var expansionTwo = document.getElementById("expansion2");
 document.getElementById("trigger").addEventListener("click", () => {
   console.log(expansionTwo);
