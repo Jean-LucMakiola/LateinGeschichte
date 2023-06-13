@@ -93,6 +93,11 @@ nav {
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+  
+}
+.nav-link-highligth a{
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,7 +130,6 @@ nav {
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-  cursor: pointer;
 }
 
 .__founding-container > * > h3,
@@ -174,6 +178,7 @@ nav {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
   border: solid 0.25rem white;
+  cursor: pointer;
 }
 
 ._founding-card1.active {
@@ -493,7 +498,7 @@ nav {
   position: absolute;
   top: 0;
   left: 100%;
-  border: red solid 1px;
+  
   width: 100%;
   height: 100%;
   transition: all 0.4s ease-in-out;
@@ -551,6 +556,22 @@ nav {
   -ms-transform: translateX(-100%);
   -o-transform: translateX(-100%);
 }
+
+#maxExpansion{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+#maxExpansion img{
+ height: 80%;
+ width: fit-content
+}
+
 
 @media screen and (max-width: 1800px) {
   :root {
