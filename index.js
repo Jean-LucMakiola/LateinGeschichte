@@ -117,3 +117,5 @@ document.getElementById("trigger").addEventListener("click", () => {
   console.log(expansionTwo);
   expansionTwo.classList.toggle("expansion2-active");
 });
+
+
